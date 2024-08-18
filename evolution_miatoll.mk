@@ -30,7 +30,7 @@ USE_PIXEL_CHARGER := true
 
 GENESIS_OFFICIAL := true
 
-PRODUCT_NAME := genesis_miatoll
+PRODUCT_NAME := evolution_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
