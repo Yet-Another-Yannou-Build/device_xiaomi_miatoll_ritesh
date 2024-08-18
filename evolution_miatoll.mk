@@ -18,17 +18,15 @@ $(call inherit-product, device/xiaomi/miatoll/miatoll.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# GenesisOS stuff.
+# Evolution stuff.
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_CARRIER_SETTINGS := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_AOSP_RECOVERY := true
 USE_PIXEL_CHARGER := true
-
-GENESIS_OFFICIAL := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := evolution_miatoll
 PRODUCT_DEVICE := miatoll
